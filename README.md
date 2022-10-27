@@ -28,11 +28,10 @@ pip install autopep8
   Parameters: --in-place --aggressive --aggressive $FilePath$
   Working directory: $ProjectFileDir$
   ```
-  <li>Click Output Files → +，Regular expression to match output：$FILE_PATH$\:$LINE$\:$COLUMN$\:.*</li>
+  <li>Under "Advanced Options" → "Output Filters" enter a regular expression to match output：$FILE_PATH$\:$LINE$\:$COLUMN$\:.*</li>
   </ul>
   
   ![External tool setting1](imgs/img2.png?raw=true)
-  ![External tool setting2](imgs/img3.png?raw=true)
   
   
 ## usage
